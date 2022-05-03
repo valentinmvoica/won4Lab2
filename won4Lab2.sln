@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "won4Lab2", "won4Lab2\won4Lab2.csproj", "{F4B00EAF-FE2F-4AFA-8E21-DAFBAB7DD865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "won4Lab2Ex1", "won4Lab2\won4Lab2Ex1.csproj", "{F4B00EAF-FE2F-4AFA-8E21-DAFBAB7DD865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "won4Lab2Ex2", "won4Lab2Ex2\won4Lab2Ex2.csproj", "{8C39D5D6-BD98-4184-8D26-3806A394A04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "won5Lab2Ex3", "won5Lab2Ex3\won5Lab2Ex3.csproj", "{3510D0F6-4E90-44BE-BFA0-2037EBF34537}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F4B00EAF-FE2F-4AFA-8E21-DAFBAB7DD865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4B00EAF-FE2F-4AFA-8E21-DAFBAB7DD865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4B00EAF-FE2F-4AFA-8E21-DAFBAB7DD865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C39D5D6-BD98-4184-8D26-3806A394A04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C39D5D6-BD98-4184-8D26-3806A394A04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C39D5D6-BD98-4184-8D26-3806A394A04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C39D5D6-BD98-4184-8D26-3806A394A04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3510D0F6-4E90-44BE-BFA0-2037EBF34537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3510D0F6-4E90-44BE-BFA0-2037EBF34537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3510D0F6-4E90-44BE-BFA0-2037EBF34537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3510D0F6-4E90-44BE-BFA0-2037EBF34537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
