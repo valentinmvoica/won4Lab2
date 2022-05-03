@@ -8,7 +8,7 @@ namespace won4Lab2Ex2
         {
             //Să se scrie un program care citeşte de la tastatură un şir de n numere 
             //naturale şi determină media aritmetică a celor pare. "n" este citit de la tastatura
-            Console.WriteLine("introduceti numarul");
+            Console.WriteLine("Cate numere veti introduce?");
             int n = int.Parse(Console.ReadLine());
 
             if (n <= 0)
@@ -18,15 +18,23 @@ namespace won4Lab2Ex2
             }
 
             long suma = 0;
+            int numerePare = 0;
             for (int i = 1; i <= n; i++)
             {
-                if(i%2==0)
+                Console.WriteLine("introduceti numarul");
+                int numar = int.Parse(Console.ReadLine());
+                if (numar % 2 == 0)
                 {
-                    suma += i;
+                    suma += numar;
+                    numerePare++;
                 }
             }
 
-            long mediaAritmetica = suma / (n / 2);
+            double mediaAritmetica = 0;
+
+            if (numerePare != 0) {
+                mediaAritmetica = (double)suma / numerePare;                
+            }
 
             Console.WriteLine("Media aritmetica este " + mediaAritmetica);
         }
